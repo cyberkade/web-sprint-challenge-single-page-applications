@@ -7,7 +7,7 @@ export default function Nav() {
             <h1>Lambda Eats</h1>
             <div>
                 <Link to={'/'} className='navBtn'>Home</Link>
-                <Link className='navBtn'>Help</Link>
+                <Link to={'/'} className='navBtn'>Help</Link>
             </div>
         </nav>
     );
