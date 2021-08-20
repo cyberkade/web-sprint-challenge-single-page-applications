@@ -11,13 +11,18 @@ h2:first-of-type {
     align-self: center;
 }
 
+h2 {
+    padding: 5px 10px;
+}
+
 .img {
     width: 100%; height: 50vh;
     background-image: url('../../Assets/Pizza.jpg');
 }
 
-p {
+.labels {
     background-color: rgba(178, 179, 180, .7);
+    padding: 5px 10px;
 }
 
 label {
@@ -33,6 +38,7 @@ input {
 .toppings {
     display: flex;
     flex-flow: row;
+    padding: 5px 10px;
 }
 
 select{
@@ -42,5 +48,21 @@ select{
 
 .special {
     width: 80%; height: 20vh;
-    margin: 0 auto;
+    margin: 10px auto;
+}
+
+#order-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    width: 100px; height: 50px;
+    margin: 15px 0px;
+    border: 1px solid black;
+}
+
+#order-button:hover {
+    transform: scale(1.05);
 }

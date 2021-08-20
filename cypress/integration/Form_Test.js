@@ -6,8 +6,7 @@ describe('Load Page', () => {
 
 describe('Submit Form', () => {
     it('button is disabled because form isnt validated', () => {
-        cy.get('#order-button').should('be.disabled')
-        
+        cy.get('#order-button').should('be.disabled') 
     })
 })
 
@@ -45,8 +44,8 @@ describe('Submit Form', () => {
     })
 })
 
-describe('Check for cleared form after submission', () => {
-    it('clears the form after user submits', () => {
+describe('Clears Form After Submission', () => {
+    it('check for cleared form after submission', () => {
         cy.get('input[name=name]').should('have.value', '')
         cy.get('select[name=size]').should('have.value', '--pick a size--')
         cy.get('input[name=topping1]').should('be.visible').and('not.be.checked')

@@ -40,6 +40,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 1. In 1-2 sentences, define end to end testing.
     -E2E testing is a method where you test the functionality of an app from beginning to end to ensure the app flow behaves as expected. The goal with E2E testing is to simulate what a real user scenario looks like from start to finish.
+    
 ## Instructions
 
 ### Task 1: Project Set Up
