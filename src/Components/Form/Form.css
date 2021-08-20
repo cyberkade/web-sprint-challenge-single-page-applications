@@ -16,12 +16,31 @@ h2:first-of-type {
     background-image: url('../../Assets/Pizza.jpg');
 }
 
+p {
+    background-color: rgba(178, 179, 180, .7);
+}
+
 label {
-    background-color: rgba(178, 179, 180, .7)
+    font-size: 18px;
 }
 
 input {
     display: block;
     margin: 5px;
     width: 100px;
+}
+
+.toppings {
+    display: flex;
+    flex-flow: row;
+}
+
+select{
+    margin: 5px;
+    width:100px;
+}
+
+.special {
+    width: 80%; height: 20vh;
+    margin: 0 auto;
 }
